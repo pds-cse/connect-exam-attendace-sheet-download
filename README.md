@@ -17,24 +17,7 @@ This script automates the downloading of exam attendance sheets from Connect. If
    - Press **Ctrl + Enter** to run.
 
 ## Script
-```js
-// Ensure pop-ups are allowed in Chrome for multiple downloads
-
-section_select = document.getElementById('mat-select-value-11').click();
-sections = document.querySelectorAll('.mat-mdc-option');
-downloadButton = document.querySelector('.btn.btn-success');
-
-function sleep(ms) {
-  return new Promise(resolve => setTimeout(resolve, ms));
-}
-
-for(let i=0; i<sections.length; i++) {
-  section = sections[i];
-  section.click();
-  downloadButton.click();
-  await sleep(1000);
-}
-```
+Check the [main.js](main.js) file.
 
 ## Notes
 - The script will iterate through all available sections and download attendance sheets for each.
