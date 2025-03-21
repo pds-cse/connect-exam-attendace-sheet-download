@@ -1,6 +1,6 @@
 # Automated Exam Attendance Sheet Download from *[CONNECT](https://connect.bracu.ac.bd/)*
 
-This script automates the downloading of exam attendance sheets from *[CONNECT](https://connect.bracu.ac.bd/)*. If the script only downloads the first section's attendance sheet, Chrome may have blocked pop-ups due to too many downloads. Make sure you allow all pop-ups from *[CONNECT](https://connect.bracu.ac.bd/)* in that case.
+This script automates the downloading of exam attendance sheets from *[CONNECT](https://connect.bracu.ac.bd/)*. If the script only downloads the first section's attendance sheet, Browser may have blocked pop-ups due to too many downloads. Make sure you allow all pop-ups from *[CONNECT](https://connect.bracu.ac.bd/)* in that case. This was tested in Chrome, Edge, and Firefox.
 
 ## How to Use
 
@@ -22,7 +22,7 @@ Check the [script](main.js) file.
 
 ## Notes
 - The script will iterate through all available sections and download attendance sheets for each.
-- If only the first section is downloaded, check Chrome pop-up settings and allow pop-ups for Connect.
+- If only the first section is downloaded, check broser's pop-up settings and allow pop-ups for Connect.
 - Adjust the `sleep(1000);` value if needed to ensure downloads are processed correctly.
 
 Feel free to contribute or suggest improvements! 🚀
