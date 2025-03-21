@@ -1,6 +1,6 @@
 # Automated Exam Attendance Sheet Download from *[CONNECT](https://connect.bracu.ac.bd/)*
 
-This script automates the downloading of exam attendance sheets from *[CONNECT](https://connect.bracu.ac.bd/)*. If the script only downloads the first section's attendance sheet, Browser may have blocked pop-ups due to too many downloads. Make sure you allow all pop-ups from *[CONNECT](https://connect.bracu.ac.bd/)* in that case. This was tested in Chrome, Edge, and Firefox.
+This script automates the downloading of exam attendance sheets from *[CONNECT](https://connect.bracu.ac.bd/)*. If the script only downloads the first section's attendance sheet, Browser may have blocked pop-ups due to too many downloads. Make sure you allow all pop-ups from *[CONNECT](https://connect.bracu.ac.bd/)* in that case. This was tested in [Chrome](https://www.google.com/chrome/), [Edge](https://www.microsoft.com/en-us/edge?form=MA13FJ), and [Firefox](https://www.mozilla.org/en-US/firefox/).
 
 ## How to Use
 
